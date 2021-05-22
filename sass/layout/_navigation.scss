@@ -1,3 +1,69 @@
 /* @NAVEGACIÓN */
 /* ********** */
 
+// HEADER
+header{
+    //Color fondo
+    background-color: $colorBgHeader;
+    .logo{
+        align-self: center;
+    }
+    .menu {
+        //Centrado menu - Header
+        justify-self: center;
+        align-self: center;
+        grid-column: 5/span 4;
+        //Grid menu
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-column-gap: 40px;
+        //Colores links
+        &__inicio {
+            color: $colorLinksMenu;
+        }
+        &__servicios {
+            color: $colorLinksMenu;
+        }
+        &__proyectos {
+            color: $colorLinksMenu;
+        }
+        &__contactar {
+            color: $colorLinksMenu;
+        }
+    }
+}
+
+// Footer
+footer{
+    //Color fondo
+    background-color: $colorBgFooter;
+    //Color titulos
+    .redes__titulo, .acercaDe__titulo, .terminos__titulo, .copyright{
+        color: $colorFooter;
+    }
+    //Color links
+    .linkFooter{
+        color: $colorFooter;
+    }
+    //Grids footer
+    .redes{
+        grid-column: 1/span 2;
+    }
+    .acercaDe{
+        grid-column: 3/span 1;
+    }
+    .copyright{
+        grid-column: 4/span 6;
+        justify-self: center;
+        align-self: flex-end;
+    }
+    .terminos{
+        grid-column: 10/span 2;
+    }
+    //Paddings links
+   
+    li{
+        padding: map-get($margenes, internos) 0px;
+    }
+}
+

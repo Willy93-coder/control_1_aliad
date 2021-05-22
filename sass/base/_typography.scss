@@ -2,8 +2,38 @@
 /* ********** */
 
 // FONT-FACE
+@font-face {
+    font-family: "robotoRegular";
+    src: url(../font/roboto-regular-webfont.woff2) format("woff2");
+}
 
+@font-face {
+    font-family: "robotoBold";
+    src: url(../font/roboto-bold-webfont.woff2) format("woff2");
+}
 
-
+html{
+    font-size: $fontSize;
+    font-family: $fontFamily;
+}
 
 // Clases Tipográficas
+// FOOTER
+//Titulos
+.redes__titulo, .acercaDe__titulo, .terminos__titulo{
+    font-size: $fontSize;
+    font-family: $fontFamily-bold;
+}
+
+//Links
+.linkFooter{
+    font-size: $fontSize;
+    font-family: $fontFamily;
+}
+
+//COPYRIGHT
+.copyright{
+    font-size: $fontSize;
+    font-family: $fontFamily;
+}
+

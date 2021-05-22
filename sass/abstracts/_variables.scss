@@ -2,10 +2,15 @@
 /* ********** */
 
 // TIPOGRAFIA
-
+$fontSize: 18px;
+$fontFamily: "robotoRegular", sans-serif;
+$fontFamily-bold: "robotoBold", sans-serif;
 
 // COLORES
-
+$colorBgHeader: #F8F8F8;
+$colorLinksMenu: #000000;
+$colorBgFooter: #2385E0;
+$colorFooter: #FFFFFF;
 
 // TAMAÑOS
 $dispositivos: (
@@ -21,6 +26,6 @@ $breakpoints: (
 );
 
 $margenes: (
-    internos: 20px,
+    internos: 16px,
     navHorizontal: 10px
 );
